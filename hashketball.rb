@@ -168,9 +168,7 @@ end
 
 def team_names
   array = []
-  game_hash.each do |key, value|
-    array << value[:team_name]
-  end
+  
   arr
 end
 
