@@ -174,6 +174,8 @@ def team_names
   array
 end
 
+print(team_names)
+
 def player_numbers(team)
   arr = []
   game_hash.each do |key, value|
