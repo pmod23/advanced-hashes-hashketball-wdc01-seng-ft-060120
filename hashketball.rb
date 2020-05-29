@@ -174,7 +174,7 @@ def team_names
   array
 end
 
-print(team_names)
+print(team_names[])
 
 def player_numbers(team)
   arr = []
