@@ -166,8 +166,6 @@ def team_colors(team)
   end
 end
 
-emails.each
-
 def team_names
   array = []
   game_hash.each do |key, value|
