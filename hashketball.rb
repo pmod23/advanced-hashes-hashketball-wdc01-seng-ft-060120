@@ -126,6 +126,8 @@ def game_hash
   }
 end
 
+# print(game_hash[:away][:players][0][:points])
+
 def num_points_scored(player)
   game_hash.each do |key, value|
     value[:players].each do |hash|
@@ -137,6 +139,11 @@ def num_points_scored(player)
   end
 end
 
+# def print_all_results(placeholder, other_placeholder)
+#   print("Points scored: " + num_points_scored(placeholder).to_s + "\n")
+#   print("Shoe Size: " + shoe_size(other_placeholder).to_s)
+# end
+
 def shoe_size(player)
   game_hash.each do |key, value|
     value[:players].each do |hash|
@@ -147,6 +154,8 @@ def shoe_size(player)
     end
   end
 end
+
+# print_all_results("Ben Gordon", "Ben Gordon")
 
 def team_colors(team)
   game_hash.each do |key, value|
